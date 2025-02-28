@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Delícia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Cabeçalho -->
+        <header>
+            <div class="logo">
+                <h1>Pizzaria Delícia</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Seção de Menu -->
+        <section id="menu">
+            <h2>Nossos Sabores</h2>
+            <div class="pizza-list">
+                <div class="pizza-item">
+                    <h3>Pizza Margherita</h3>
+                    <p>Tomate, queijo mozzarella e manjericão fresco.</p>
+                </div>
+                <div class="pizza-item">
+                    <h3>Pizza Calabresa</h3>
+                    <p>Calabresa, cebola e azeitonas.</p>
+                </div>
+                <div class="pizza-item">
+                    <h3>Pizza 4 Queijos</h3>
+                    <p>Queijo mozzarella, parmesão, gorgonzola e provolone.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="sobre">
+            <h2>Sobre a Pizzaria</h2>
+            <p>Com uma tradição de mais de 20 anos, a Pizzaria Delícia oferece as melhores pizzas da cidade, com ingredientes frescos e uma massa super leve.</p>
+        </section>
+
+        <!-- Seção de Contato -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form id="form-contato">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Rodapé -->
+        <footer>
+            <p>&copy; 2025 Pizzaria Delícia - Todos os direitos reservados</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
